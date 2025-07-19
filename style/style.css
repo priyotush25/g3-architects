@@ -289,9 +289,6 @@ nav {
   background: rgb(255, 244, 231);
 }
 
-.hide {
-  visibility: hidden;
-}
 /*=============responsive style=============*/
 @media screen and (max-width: 576px) {
   .container {
@@ -335,5 +332,119 @@ nav {
     margin-bottom: 25px;
     border-radius: 8px;
     padding: 18px 22px;
+  }
+
+  /* teams section */
+  .teams {
+    width: 100%;
+    gap: 50px;
+    margin-top: 35px;
+    flex-direction: column;
+  }
+
+  .team-text {
+    width: 95%;
+  }
+
+  .team-img {
+    gap: 5%;
+  }
+
+  /* feature responsive style */
+  .features {
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .feature-text {
+    width: 95%;
+  }
+
+  .feature-img {
+    width: 95%;
+    position: relative;
+  }
+
+  .badge {
+    color: white;
+    width: 342px;
+
+    text-align: center;
+    padding: 32px 36px;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+  }
+
+  .badge h1 {
+    margin-bottom: 6px;
+  }
+
+  .badge h3 {
+    font-weight: 500;
+  }
+
+  /* sponsor responsive style */
+  .facts {
+    width: 100%;
+    text-align: center;
+    margin-top: 130px;
+  }
+
+  .facts p {
+    width: 90%;
+    margin-top: 18px;
+  }
+
+  .fact-cards {
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  /* sponsor responsive style */
+  .sponspors {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .sponspors p {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .sponsor-logo {
+    gap: 10px;
+    display: grid;
+    padding: 10px;
+    margin: 50px auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sponsor-logo img {
+    width: 150px;
+  }
+
+  /* footer responsive style */
+  .footer-text {
+    width: 100%;
+    border-radius: 0;
+
+    padding: 30px 50px;
+    font-weight: 400;
+    margin: 0 auto;
+    color: rgb(66, 66, 66);
+    background: rgb(255, 244, 231);
+  }
+
+  .footer-text h3 {
+    width: 100%;
   }
 }

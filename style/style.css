@@ -251,3 +251,27 @@ nav {
 .fact-card img {
   width: 45px;
 }
+
+/*=============sponspors section style=============*/
+.sponspors {
+  text-align: center;
+}
+
+.sponspors h2 {
+  margin-bottom: 24px;
+}
+.sponspors p {
+  margin: 0 auto;
+  width: 542px;
+}
+
+.sponsor-logo {
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sponsor-logo img {
+  width: 166px;
+  filter: grayscale(100%);
+}

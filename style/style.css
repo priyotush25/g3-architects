@@ -43,7 +43,12 @@ p {
   margin: 32px auto;
   border-radius: 8px;
   padding: 20px 24px;
+  cursor: pointer;
+  transition: backgorund-colo ease 0.3s;
   background-color: rgb(255, 144, 14);
+}
+.btn:hover {
+  background-color: rgb(247, 135, 8);
 }
 
 .flex {

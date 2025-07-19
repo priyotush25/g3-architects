@@ -215,3 +215,39 @@ nav {
 }
 
 /*=============features section style=============*/
+.facts {
+  margin: 130px auto;
+}
+
+.facts p {
+  width: 542px;
+  margin-top: 24px;
+}
+
+.fact-cards {
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.fact-card {
+  width: 241.83px;
+  height: 241.83px;
+  border-radius: 8px;
+  padding: 35px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 144, 14);
+}
+
+.fact-card h2 {
+  margin-top: 10px;
+  color: rgb(66, 66, 66);
+}
+.fact-card h3 {
+  margin-top: 5px;
+  color: rgb(114, 114, 114);
+}
+
+.fact-card img {
+  width: 45px;
+}
